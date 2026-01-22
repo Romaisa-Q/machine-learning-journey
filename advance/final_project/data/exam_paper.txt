@@ -1,0 +1,50 @@
+PYTHON PROGRAMMING - FINAL EXAMINATION
+Time: 3 Hours                                    Total Marks: 100
+
+SECTION A: SHORT QUESTIONS (40 Marks)
+
+Q1. What are the key features of Python programming language? List any five.
+
+Q2. Explain the difference between break and continue statements with examples.
+
+Q3. What is a lambda function? Write a Python program using lambda to square numbers.
+
+Q4. Define inheritance in object-oriented programming. Give a real-world example.
+
+Q5. How do you handle exceptions in Python? Explain try-except-finally blocks.
+
+Q6. What are the different file modes in Python? Explain each with examples.
+
+Q7. Write a Python program to read data from a CSV file.
+
+Q8. Explain the difference between lists and tuples in Python.
+
+
+SECTION B: LONG QUESTIONS (60 Marks)
+
+Q9. Write a detailed note on object-oriented programming concepts in Python. Include:
+    a) Classes and objects
+    b) Inheritance with code example
+    c) Polymorphism
+    d) Encapsulation
+
+Q10. Create a Python program that:
+     - Defines a function to calculate factorial
+     - Handles invalid input using exception handling
+     - Saves the results to a text file
+
+Q11. What are loops in Python? Explain:
+     a) For loop with range()
+     b) While loop
+     c) Nested loops
+     Write programs for each.
+
+Q12. Explain database connectivity in Python:
+     a) How to connect to MySQL database
+     b) Write code to insert data into a table
+     c) Write code to retrieve and display data
+
+Q13. Write a Python program to create a simple calculator using functions. The calculator should:
+     - Take two numbers as input
+     - Perform addition, subtraction, multiplication, division
+     - Handle division by zero error

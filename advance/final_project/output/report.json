@@ -1,0 +1,692 @@
+{
+  "generated_at": "2026-01-22T13:42:06.361996",
+  "analysis": {
+    "summary": {
+      "total_topics": 50,
+      "total_questions": 19,
+      "covered_topics": 21,
+      "not_covered_topics": 29,
+      "coverage_percentage": 42.0,
+      "threshold_used": 0.5
+    },
+    "covered_topics": [
+      {
+        "topic": "Introduction to Python",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.6355,
+        "covered": true
+      },
+      {
+        "topic": "History and features of Python",
+        "best_match_question": "What are the key features of Python programming language??",
+        "similarity": 0.7374,
+        "covered": true
+      },
+      {
+        "topic": "Loops in Python (for, while)",
+        "best_match_question": "What are loops in Python??",
+        "similarity": 0.7491,
+        "covered": true
+      },
+      {
+        "topic": "Break and continue statements",
+        "best_match_question": "Explain the difference between break and continue statements with examples.",
+        "similarity": 0.8252,
+        "covered": true
+      },
+      {
+        "topic": "Nested loops",
+        "best_match_question": "What are loops in Python? Explain:",
+        "similarity": 0.6002,
+        "covered": true
+      },
+      {
+        "topic": "Defining functions in Python",
+        "best_match_question": "Write a Python program to create a simple calculator using functions. The calculator should:",
+        "similarity": 0.6065,
+        "covered": true
+      },
+      {
+        "topic": "Lambda functions and map/filter",
+        "best_match_question": "What is a lambda function??",
+        "similarity": 0.6505,
+        "covered": true
+      },
+      {
+        "topic": "Object Oriented Programming",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.7131,
+        "covered": true
+      },
+      {
+        "topic": "Classes and objects in Python",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.592,
+        "covered": true
+      },
+      {
+        "topic": "Inheritance and polymorphism",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.5997,
+        "covered": true
+      },
+      {
+        "topic": "Exception Handling",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.7339,
+        "covered": true
+      },
+      {
+        "topic": "Types of errors in Python",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.6666,
+        "covered": true
+      },
+      {
+        "topic": "Try-except blocks",
+        "best_match_question": "How do you handle exceptions in Python? Explain try-except-finally blocks.",
+        "similarity": 0.7169,
+        "covered": true
+      },
+      {
+        "topic": "Finally and else in exception handling",
+        "best_match_question": "How do you handle exceptions in Python? Explain try-except-finally blocks.",
+        "similarity": 0.6347,
+        "covered": true
+      },
+      {
+        "topic": "Custom exceptions",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.6103,
+        "covered": true
+      },
+      {
+        "topic": "File Handling",
+        "best_match_question": "What are the different file modes in Python? Explain each with examples.",
+        "similarity": 0.5056,
+        "covered": true
+      },
+      {
+        "topic": "Working with CSV files",
+        "best_match_question": "Write a Python program to read data from a CSV file.",
+        "similarity": 0.7301,
+        "covered": true
+      },
+      {
+        "topic": "File modes (r, w, a, r+)",
+        "best_match_question": "What are the different file modes in Python??",
+        "similarity": 0.6662,
+        "covered": true
+      },
+      {
+        "topic": "Lists and list operations",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.5608,
+        "covered": true
+      },
+      {
+        "topic": "Tuples and their immutability",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.5423,
+        "covered": true
+      },
+      {
+        "topic": "Python standard library",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.6016,
+        "covered": true
+      }
+    ],
+    "not_covered_topics": [
+      {
+        "topic": "Installing Python and setting up environment",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.4792,
+        "covered": false
+      },
+      {
+        "topic": "Basic syntax and variables",
+        "best_match_question": "What are loops in Python? Explain:",
+        "similarity": 0.411,
+        "covered": false
+      },
+      {
+        "topic": "Data types: int, float, string, boolean",
+        "best_match_question": "Write a Python program to read data from a CSV file.",
+        "similarity": 0.2836,
+        "covered": false
+      },
+      {
+        "topic": "Control Structures",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.2579,
+        "covered": false
+      },
+      {
+        "topic": "Conditional statements (if, elif, else)",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.315,
+        "covered": false
+      },
+      {
+        "topic": "Functions",
+        "best_match_question": "What is a lambda function??",
+        "similarity": 0.4878,
+        "covered": false
+      },
+      {
+        "topic": "Parameters and arguments",
+        "best_match_question": "What is a lambda function??",
+        "similarity": 0.3031,
+        "covered": false
+      },
+      {
+        "topic": "Return statements",
+        "best_match_question": "Explain the difference between break and continue statements with examples.",
+        "similarity": 0.3778,
+        "covered": false
+      },
+      {
+        "topic": "Encapsulation and abstraction",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.387,
+        "covered": false
+      },
+      {
+        "topic": "Method overriding and overloading",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.3007,
+        "covered": false
+      },
+      {
+        "topic": "Reading and writing text files",
+        "best_match_question": "Write a Python program to read data from a CSV file.",
+        "similarity": 0.4583,
+        "covered": false
+      },
+      {
+        "topic": "Context managers (with statement)",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.2641,
+        "covered": false
+      },
+      {
+        "topic": "Data Structures",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.321,
+        "covered": false
+      },
+      {
+        "topic": "Dictionaries and key-value pairs",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.296,
+        "covered": false
+      },
+      {
+        "topic": "Sets and set operations",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.2879,
+        "covered": false
+      },
+      {
+        "topic": "Modules and Packages",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.3667,
+        "covered": false
+      },
+      {
+        "topic": "Importing modules",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.3057,
+        "covered": false
+      },
+      {
+        "topic": "Creating custom modules",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.3968,
+        "covered": false
+      },
+      {
+        "topic": "Package management with pip",
+        "best_match_question": "What are the key features of Python programming language??",
+        "similarity": 0.3269,
+        "covered": false
+      },
+      {
+        "topic": "Database Programming",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.4974,
+        "covered": false
+      },
+      {
+        "topic": "Introduction to databases",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.4581,
+        "covered": false
+      },
+      {
+        "topic": "Connecting to MySQL/PostgreSQL",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.3922,
+        "covered": false
+      },
+      {
+        "topic": "Executing SQL queries from Python",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.4907,
+        "covered": false
+      },
+      {
+        "topic": "CRUD operations",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.2449,
+        "covered": false
+      },
+      {
+        "topic": "Web Development Basics",
+        "best_match_question": "What are the key features of Python programming language? List any five.",
+        "similarity": 0.2975,
+        "covered": false
+      },
+      {
+        "topic": "Introduction to Flask/Django",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.4573,
+        "covered": false
+      },
+      {
+        "topic": "Creating simple web applications",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.3867,
+        "covered": false
+      },
+      {
+        "topic": "Handling HTTP requests",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.1919,
+        "covered": false
+      },
+      {
+        "topic": "Templates and routing",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.1647,
+        "covered": false
+      }
+    ],
+    "all_matches": [
+      {
+        "topic": "Introduction to Python",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.6355,
+        "covered": true
+      },
+      {
+        "topic": "History and features of Python",
+        "best_match_question": "What are the key features of Python programming language??",
+        "similarity": 0.7374,
+        "covered": true
+      },
+      {
+        "topic": "Installing Python and setting up environment",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.4792,
+        "covered": false
+      },
+      {
+        "topic": "Basic syntax and variables",
+        "best_match_question": "What are loops in Python? Explain:",
+        "similarity": 0.411,
+        "covered": false
+      },
+      {
+        "topic": "Data types: int, float, string, boolean",
+        "best_match_question": "Write a Python program to read data from a CSV file.",
+        "similarity": 0.2836,
+        "covered": false
+      },
+      {
+        "topic": "Control Structures",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.2579,
+        "covered": false
+      },
+      {
+        "topic": "Conditional statements (if, elif, else)",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.315,
+        "covered": false
+      },
+      {
+        "topic": "Loops in Python (for, while)",
+        "best_match_question": "What are loops in Python??",
+        "similarity": 0.7491,
+        "covered": true
+      },
+      {
+        "topic": "Break and continue statements",
+        "best_match_question": "Explain the difference between break and continue statements with examples.",
+        "similarity": 0.8252,
+        "covered": true
+      },
+      {
+        "topic": "Nested loops",
+        "best_match_question": "What are loops in Python? Explain:",
+        "similarity": 0.6002,
+        "covered": true
+      },
+      {
+        "topic": "Functions",
+        "best_match_question": "What is a lambda function??",
+        "similarity": 0.4878,
+        "covered": false
+      },
+      {
+        "topic": "Defining functions in Python",
+        "best_match_question": "Write a Python program to create a simple calculator using functions. The calculator should:",
+        "similarity": 0.6065,
+        "covered": true
+      },
+      {
+        "topic": "Parameters and arguments",
+        "best_match_question": "What is a lambda function??",
+        "similarity": 0.3031,
+        "covered": false
+      },
+      {
+        "topic": "Return statements",
+        "best_match_question": "Explain the difference between break and continue statements with examples.",
+        "similarity": 0.3778,
+        "covered": false
+      },
+      {
+        "topic": "Lambda functions and map/filter",
+        "best_match_question": "What is a lambda function??",
+        "similarity": 0.6505,
+        "covered": true
+      },
+      {
+        "topic": "Object Oriented Programming",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.7131,
+        "covered": true
+      },
+      {
+        "topic": "Classes and objects in Python",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.592,
+        "covered": true
+      },
+      {
+        "topic": "Inheritance and polymorphism",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.5997,
+        "covered": true
+      },
+      {
+        "topic": "Encapsulation and abstraction",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.387,
+        "covered": false
+      },
+      {
+        "topic": "Method overriding and overloading",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.3007,
+        "covered": false
+      },
+      {
+        "topic": "Exception Handling",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.7339,
+        "covered": true
+      },
+      {
+        "topic": "Types of errors in Python",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.6666,
+        "covered": true
+      },
+      {
+        "topic": "Try-except blocks",
+        "best_match_question": "How do you handle exceptions in Python? Explain try-except-finally blocks.",
+        "similarity": 0.7169,
+        "covered": true
+      },
+      {
+        "topic": "Finally and else in exception handling",
+        "best_match_question": "How do you handle exceptions in Python? Explain try-except-finally blocks.",
+        "similarity": 0.6347,
+        "covered": true
+      },
+      {
+        "topic": "Custom exceptions",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.6103,
+        "covered": true
+      },
+      {
+        "topic": "File Handling",
+        "best_match_question": "What are the different file modes in Python? Explain each with examples.",
+        "similarity": 0.5056,
+        "covered": true
+      },
+      {
+        "topic": "Reading and writing text files",
+        "best_match_question": "Write a Python program to read data from a CSV file.",
+        "similarity": 0.4583,
+        "covered": false
+      },
+      {
+        "topic": "Working with CSV files",
+        "best_match_question": "Write a Python program to read data from a CSV file.",
+        "similarity": 0.7301,
+        "covered": true
+      },
+      {
+        "topic": "File modes (r, w, a, r+)",
+        "best_match_question": "What are the different file modes in Python??",
+        "similarity": 0.6662,
+        "covered": true
+      },
+      {
+        "topic": "Context managers (with statement)",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.2641,
+        "covered": false
+      },
+      {
+        "topic": "Data Structures",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.321,
+        "covered": false
+      },
+      {
+        "topic": "Lists and list operations",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.5608,
+        "covered": true
+      },
+      {
+        "topic": "Tuples and their immutability",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.5423,
+        "covered": true
+      },
+      {
+        "topic": "Dictionaries and key-value pairs",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.296,
+        "covered": false
+      },
+      {
+        "topic": "Sets and set operations",
+        "best_match_question": "Explain the difference between lists and tuples in Python.",
+        "similarity": 0.2879,
+        "covered": false
+      },
+      {
+        "topic": "Modules and Packages",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.3667,
+        "covered": false
+      },
+      {
+        "topic": "Importing modules",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.3057,
+        "covered": false
+      },
+      {
+        "topic": "Creating custom modules",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.3968,
+        "covered": false
+      },
+      {
+        "topic": "Python standard library",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.6016,
+        "covered": true
+      },
+      {
+        "topic": "Package management with pip",
+        "best_match_question": "What are the key features of Python programming language??",
+        "similarity": 0.3269,
+        "covered": false
+      },
+      {
+        "topic": "Database Programming",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.4974,
+        "covered": false
+      },
+      {
+        "topic": "Introduction to databases",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.4581,
+        "covered": false
+      },
+      {
+        "topic": "Connecting to MySQL/PostgreSQL",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.3922,
+        "covered": false
+      },
+      {
+        "topic": "Executing SQL queries from Python",
+        "best_match_question": "Explain database connectivity in Python:",
+        "similarity": 0.4907,
+        "covered": false
+      },
+      {
+        "topic": "CRUD operations",
+        "best_match_question": "Define inheritance in object-oriented programming. Give a real-world example.",
+        "similarity": 0.2449,
+        "covered": false
+      },
+      {
+        "topic": "Web Development Basics",
+        "best_match_question": "What are the key features of Python programming language? List any five.",
+        "similarity": 0.2975,
+        "covered": false
+      },
+      {
+        "topic": "Introduction to Flask/Django",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.4573,
+        "covered": false
+      },
+      {
+        "topic": "Creating simple web applications",
+        "best_match_question": "Create a Python program that:",
+        "similarity": 0.3867,
+        "covered": false
+      },
+      {
+        "topic": "Handling HTTP requests",
+        "best_match_question": "How do you handle exceptions in Python??",
+        "similarity": 0.1919,
+        "covered": false
+      },
+      {
+        "topic": "Templates and routing",
+        "best_match_question": "Write a detailed note on object-oriented programming concepts in Python. Include:",
+        "similarity": 0.1647,
+        "covered": false
+      }
+    ],
+    "topics_list": [
+      "Introduction to Python",
+      "History and features of Python",
+      "Installing Python and setting up environment",
+      "Basic syntax and variables",
+      "Data types: int, float, string, boolean",
+      "Control Structures",
+      "Conditional statements (if, elif, else)",
+      "Loops in Python (for, while)",
+      "Break and continue statements",
+      "Nested loops",
+      "Functions",
+      "Defining functions in Python",
+      "Parameters and arguments",
+      "Return statements",
+      "Lambda functions and map/filter",
+      "Object Oriented Programming",
+      "Classes and objects in Python",
+      "Inheritance and polymorphism",
+      "Encapsulation and abstraction",
+      "Method overriding and overloading",
+      "Exception Handling",
+      "Types of errors in Python",
+      "Try-except blocks",
+      "Finally and else in exception handling",
+      "Custom exceptions",
+      "File Handling",
+      "Reading and writing text files",
+      "Working with CSV files",
+      "File modes (r, w, a, r+)",
+      "Context managers (with statement)",
+      "Data Structures",
+      "Lists and list operations",
+      "Tuples and their immutability",
+      "Dictionaries and key-value pairs",
+      "Sets and set operations",
+      "Modules and Packages",
+      "Importing modules",
+      "Creating custom modules",
+      "Python standard library",
+      "Package management with pip",
+      "Database Programming",
+      "Introduction to databases",
+      "Connecting to MySQL/PostgreSQL",
+      "Executing SQL queries from Python",
+      "CRUD operations",
+      "Web Development Basics",
+      "Introduction to Flask/Django",
+      "Creating simple web applications",
+      "Handling HTTP requests",
+      "Templates and routing"
+    ],
+    "questions_list": [
+      "What are the key features of Python programming language??",
+      "What is a lambda function??",
+      "How do you handle exceptions in Python??",
+      "What are the different file modes in Python??",
+      "What are loops in Python??",
+      "What are the key features of Python programming language? List any five.",
+      "Explain the difference between break and continue statements with examples.",
+      "What is a lambda function? Write a Python program using lambda to square numbers.",
+      "Define inheritance in object-oriented programming. Give a real-world example.",
+      "How do you handle exceptions in Python? Explain try-except-finally blocks.",
+      "What are the different file modes in Python? Explain each with examples.",
+      "Write a Python program to read data from a CSV file.",
+      "Explain the difference between lists and tuples in Python.",
+      "Write a detailed note on object-oriented programming concepts in Python. Include:",
+      "Create a Python program that:",
+      "What are loops in Python? Explain:",
+      "Explain database connectivity in Python:",
+      "Write a Python program to create a simple calculator using functions. The calculator should:",
+      "Write programs for each."
+    ]
+  }
+}

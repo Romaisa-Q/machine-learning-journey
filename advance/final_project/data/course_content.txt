@@ -1,0 +1,61 @@
+PYTHON PROGRAMMING COURSE - SYLLABUS
+
+Module 1: Introduction to Python
+- History and features of Python
+- Installing Python and setting up environment
+- Basic syntax and variables
+- Data types: int, float, string, boolean
+
+Module 2: Control Structures
+- Conditional statements (if, elif, else)
+- Loops in Python (for, while)
+- Break and continue statements
+- Nested loops
+
+Module 3: Functions
+- Defining functions in Python
+- Parameters and arguments
+- Return statements
+- Lambda functions and map/filter
+
+Module 4: Object Oriented Programming
+- Classes and objects in Python
+- Inheritance and polymorphism
+- Encapsulation and abstraction
+- Method overriding and overloading
+
+Module 5: Exception Handling
+- Types of errors in Python
+- Try-except blocks
+- Finally and else in exception handling
+- Custom exceptions
+
+Module 6: File Handling
+- Reading and writing text files
+- Working with CSV files
+- File modes (r, w, a, r+)
+- Context managers (with statement)
+
+Module 7: Data Structures
+- Lists and list operations
+- Tuples and their immutability
+- Dictionaries and key-value pairs
+- Sets and set operations
+
+Module 8: Modules and Packages
+- Importing modules
+- Creating custom modules
+- Python standard library
+- Package management with pip
+
+Module 9: Database Programming
+- Introduction to databases
+- Connecting to MySQL/PostgreSQL
+- Executing SQL queries from Python
+- CRUD operations
+
+Module 10: Web Development Basics
+- Introduction to Flask/Django
+- Creating simple web applications
+- Handling HTTP requests
+- Templates and routing

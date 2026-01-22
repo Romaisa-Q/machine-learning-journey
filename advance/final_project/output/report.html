@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coverage Analysis Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .content { padding: 40px; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            border-left: 5px solid #667eea;
+        }
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        .stat-label { color: #666; font-size: 0.9em; text-transform: uppercase; }
+        .coverage-meter {
+            width: 100%;
+            height: 40px;
+            background: #e0e0e0;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+        .coverage-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            transition: width 1s ease;
+        }
+        .section { margin: 40px 0; }
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .topic-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border-left: 5px solid #28a745;
+        }
+        .topic-card.not-covered { border-left-color: #dc3545; }
+        .topic-title { font-weight: bold; color: #333; margin-bottom: 10px; }
+        .topic-match { color: #666; font-size: 0.9em; margin: 5px 0; }
+        .similarity-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            background: #667eea;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .recommendations {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .recommendations h3 { color: #856404; margin-bottom: 15px; }
+        .recommendations li { margin: 10px 0; color: #856404; }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Coverage Analysis Report</h1>
+            <p>Generated: January 22, 2026 at 01:42 PM</p>
+        </div>
+        
+        <div class="content">
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-label">Total Topics</div>
+                    <div class="stat-value">50</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Covered Topics</div>
+                    <div class="stat-value">21</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total Questions</div>
+                    <div class="stat-value">19</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Coverage</div>
+                    <div class="stat-value">42.0%</div>
+                </div>
+            </div>
+            
+            <!-- Coverage Meter -->
+            <div class="coverage-meter">
+                <div class="coverage-fill" style="width: 42.0%">
+                    42.0% Coverage
+                </div>
+            </div>
+            
+            <!-- Covered Topics -->
+            <div class="section">
+                <h2 class="section-title">✅ Covered Topics (21)</h2>
+
+                <div class="topic-card">
+                    <div class="topic-title">Introduction to Python</div>
+                    <div class="topic-match">📝 Best Match: Create a Python program that:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 63.55%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">History and features of Python</div>
+                    <div class="topic-match">📝 Best Match: What are the key features of Python programming language??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 73.74%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Loops in Python (for, while)</div>
+                    <div class="topic-match">📝 Best Match: What are loops in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 74.91%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Break and continue statements</div>
+                    <div class="topic-match">📝 Best Match: Explain the difference between break and continue statements with examples.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 82.52%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Nested loops</div>
+                    <div class="topic-match">📝 Best Match: What are loops in Python? Explain:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 60.02%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Defining functions in Python</div>
+                    <div class="topic-match">📝 Best Match: Write a Python program to create a simple calculator using functions. The calculator should:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 60.65%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Lambda functions and map/filter</div>
+                    <div class="topic-match">📝 Best Match: What is a lambda function??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 65.05%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Object Oriented Programming</div>
+                    <div class="topic-match">📝 Best Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 71.31%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Classes and objects in Python</div>
+                    <div class="topic-match">📝 Best Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 59.20%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Inheritance and polymorphism</div>
+                    <div class="topic-match">📝 Best Match: Define inheritance in object-oriented programming. Give a real-world example.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 59.97%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Exception Handling</div>
+                    <div class="topic-match">📝 Best Match: How do you handle exceptions in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 73.39%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Types of errors in Python</div>
+                    <div class="topic-match">📝 Best Match: How do you handle exceptions in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 66.66%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Try-except blocks</div>
+                    <div class="topic-match">📝 Best Match: How do you handle exceptions in Python? Explain try-except-finally blocks.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 71.69%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Finally and else in exception handling</div>
+                    <div class="topic-match">📝 Best Match: How do you handle exceptions in Python? Explain try-except-finally blocks.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 63.47%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Custom exceptions</div>
+                    <div class="topic-match">📝 Best Match: How do you handle exceptions in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 61.03%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">File Handling</div>
+                    <div class="topic-match">📝 Best Match: What are the different file modes in Python? Explain each with examples.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 50.56%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Working with CSV files</div>
+                    <div class="topic-match">📝 Best Match: Write a Python program to read data from a CSV file.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 73.01%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">File modes (r, w, a, r+)</div>
+                    <div class="topic-match">📝 Best Match: What are the different file modes in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 66.62%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Lists and list operations</div>
+                    <div class="topic-match">📝 Best Match: Explain the difference between lists and tuples in Python.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 56.08%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Tuples and their immutability</div>
+                    <div class="topic-match">📝 Best Match: Explain the difference between lists and tuples in Python.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 54.23%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-title">Python standard library</div>
+                    <div class="topic-match">📝 Best Match: Create a Python program that:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge">Similarity: 60.16%</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- Not Covered Topics -->
+            <div class="section">
+                <h2 class="section-title">❌ Not Covered Topics (29)
+                </h2>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Installing Python and setting up environment</div>
+                    <div class="topic-match">📝 Closest Match: Create a Python program that:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 47.92%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Basic syntax and variables</div>
+                    <div class="topic-match">📝 Closest Match: What are loops in Python? Explain:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 41.10%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Data types: int, float, string, boolean</div>
+                    <div class="topic-match">📝 Closest Match: Write a Python program to read data from a CSV file.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 28.36%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Control Structures</div>
+                    <div class="topic-match">📝 Closest Match: Define inheritance in object-oriented programming. Give a real-world example.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 25.79%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Conditional statements (if, elif, else)</div>
+                    <div class="topic-match">📝 Closest Match: How do you handle exceptions in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 31.50%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Functions</div>
+                    <div class="topic-match">📝 Closest Match: What is a lambda function??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 48.78%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Parameters and arguments</div>
+                    <div class="topic-match">📝 Closest Match: What is a lambda function??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 30.31%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Return statements</div>
+                    <div class="topic-match">📝 Closest Match: Explain the difference between break and continue statements with examples.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 37.78%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Encapsulation and abstraction</div>
+                    <div class="topic-match">📝 Closest Match: Define inheritance in object-oriented programming. Give a real-world example.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 38.70%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Method overriding and overloading</div>
+                    <div class="topic-match">📝 Closest Match: Define inheritance in object-oriented programming. Give a real-world example.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 30.07%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Reading and writing text files</div>
+                    <div class="topic-match">📝 Closest Match: Write a Python program to read data from a CSV file.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 45.83%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Context managers (with statement)</div>
+                    <div class="topic-match">📝 Closest Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 26.41%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Data Structures</div>
+                    <div class="topic-match">📝 Closest Match: Explain database connectivity in Python:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 32.10%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Dictionaries and key-value pairs</div>
+                    <div class="topic-match">📝 Closest Match: Explain the difference between lists and tuples in Python.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 29.60%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Sets and set operations</div>
+                    <div class="topic-match">📝 Closest Match: Explain the difference between lists and tuples in Python.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 28.79%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Modules and Packages</div>
+                    <div class="topic-match">📝 Closest Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 36.67%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Importing modules</div>
+                    <div class="topic-match">📝 Closest Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 30.57%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Creating custom modules</div>
+                    <div class="topic-match">📝 Closest Match: Create a Python program that:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 39.68%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Package management with pip</div>
+                    <div class="topic-match">📝 Closest Match: What are the key features of Python programming language??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 32.69%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Database Programming</div>
+                    <div class="topic-match">📝 Closest Match: Explain database connectivity in Python:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 49.74%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Introduction to databases</div>
+                    <div class="topic-match">📝 Closest Match: Explain database connectivity in Python:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 45.81%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Connecting to MySQL/PostgreSQL</div>
+                    <div class="topic-match">📝 Closest Match: Explain database connectivity in Python:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 39.22%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Executing SQL queries from Python</div>
+                    <div class="topic-match">📝 Closest Match: Explain database connectivity in Python:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 49.07%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">CRUD operations</div>
+                    <div class="topic-match">📝 Closest Match: Define inheritance in object-oriented programming. Give a real-world example.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 24.49%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Web Development Basics</div>
+                    <div class="topic-match">📝 Closest Match: What are the key features of Python programming language? List any five.</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 29.75%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Introduction to Flask/Django</div>
+                    <div class="topic-match">📝 Closest Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 45.73%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Creating simple web applications</div>
+                    <div class="topic-match">📝 Closest Match: Create a Python program that:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 38.67%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Handling HTTP requests</div>
+                    <div class="topic-match">📝 Closest Match: How do you handle exceptions in Python??</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 19.19%</span>
+                    </div>
+                </div>
+
+                <div class="topic-card not-covered">
+                    <div class="topic-title">Templates and routing</div>
+                    <div class="topic-match">📝 Closest Match: Write a detailed note on object-oriented programming concepts in Python. Include:</div>
+                    <div class="topic-match">
+                        <span class="similarity-badge" style="background: #dc3545;">Similarity: 16.47%</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- Recommendations -->
+            <div class="section">
+                <div class="recommendations">
+                    <h3>💡 Recommendations</h3>
+                    <ul>
+<li>❌ Poor coverage. Significant gaps between course and exam.</li>
+<li>
+📌 29 topics are not covered in exam:</li>
+<li>   • Installing Python and setting up environment</li>
+<li>   • Basic syntax and variables</li>
+<li>   • Data types: int, float, string, boolean</li>
+<li>   • Control Structures</li>
+<li>   • Conditional statements (if, elif, else)</li>
+<li>
+💡 Suggestions:</li>
+<li>   1. Add questions covering the missing topics</li>
+<li>   2. Review if these topics are essential for assessment</li>
+<li>   3. Consider adjusting course content if topics aren't critical</li>
+<li>
+🎚️ Note: Current threshold is 0.5</li>
+<li>   Consider lowering threshold if topics are related but not exact matches</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🤖 Powered by AI Semantic Analysis | Sentence-BERT Model</p>
+            <p>Threshold: 0.50 | Model: all-MiniLM-L6-v2</p>
+        </div>
+    </div>
+</body>
+</html>

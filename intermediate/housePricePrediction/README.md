@@ -1,26 +1,13 @@
-# House Price Prediction 
+## House Price Prediction (Decision Tree)
 
-## Overview
-This project predicts house prices using Linear Regression.
-The model learns relationships between house features
-(area, bedrooms, bathrooms, etc.) and price.
+This project uses a Decision Tree Regressor to predict house prices based on
+features such as area, bedrooms, location, and condition.
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
+### Concepts Used
+- Decision Trees
+- Categorical Encoding
+- Regression Metrics (MAE, MSE, R2)
 
-## Machine Learning Type
-Regression
-
-## Model
-Linear Regression
-
-## Evaluation Metrics
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- R² Score
-
-## Goal
-Understand regression problems and numerical predictions
-before moving to advanced ML and NLP models.
+### Why Decision Tree?
+Decision Trees are easy to interpret and can capture non-linear patterns
+in housing data without feature scaling.

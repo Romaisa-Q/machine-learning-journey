@@ -1,58 +1,17 @@
-# Insurance Cost Prediction (Machine Learning)
+## Insurance Cost Prediction (Decision Tree)
 
-This project predicts insurance charges based on personal and lifestyle factors using Machine Learning.
+This project applies a Decision Tree Regressor to predict medical insurance charges.
 
-## Project Type
+### Why Decision Tree?
 
-* Supervised Learning
-* Regression
+Decision Trees model non-linear relationships and make predictions using a series of logical rules, making them easy to interpret.
 
-## Algorithm Used
+### Concepts Used
 
-* Linear Regression
+* Decision Tree Regression
+* Hyperparameter tuning (max_depth, min_samples_leaf)
+* Model evaluation (MAE, MSE, R2)
 
-## Dataset
+### Learning Outcome
 
-Insurance dataset downloaded from Kaggle.
-
-## Features
-
-* Age
-* Sex
-* BMI
-* Number of Children
-* Smoker
-* Region
-
-## Target
-
-* Insurance Charges (numeric value)
-
-## Workflow
-
-1. Load dataset
-2. Encode categorical features
-3. Train-test split
-4. Train Linear Regression model
-5. Evaluate using regression metrics
-
-## Evaluation Metrics
-
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* R² Score
-
-## Tools & Libraries
-
-* Python
-* Pandas
-* Scikit-learn
-
-## Learning Outcome
-
-This project helps understand:
-
-* Regression vs Classification
-* Numeric prediction
-* Feature impact on output
-* Model evaluation techniques
+The model captures non-linear patterns in insurance data and provides an interpretable alternative to linear regression.
